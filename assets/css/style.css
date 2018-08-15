@@ -54,6 +54,7 @@ p {
   background-color: #fff;
   min-width: 1150px; 
   border-bottom: 1px solid #cccccc;
+  
 }
 
 .logo {
@@ -220,4 +221,66 @@ footer {
   color: #ffffff;
   background-color: #666666;
   min-width: 1150px; 
+}
+
+@media (max-width: 400px) {
+
+  body {
+    width: 100%;
+  }
+  .top-container {
+    padding-left: 15px;
+    Height: 120px;
+    min-width: 0;
+  }
+
+  .navigation {
+    padding: 15px 0px 15px 0px;
+  }
+  .nav {
+    padding: 0px 0px 0px 0px;
+    float: left;
+  }
+  .main-content {
+    width: 350px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    min-width: 0;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 768px) {
+  .top-container {
+    padding-left: 15px;
+    Height: 120px;
+    min-width: 0;
+  }
+
+  .navigation {
+    padding: 25px 0px 25px 0px;
+    float: right;
+  }
+  .nav {
+    padding: 0px 0px 0px 0px;
+    float: right;
+  }
+  .main-content {
+    width: 350px;
+    margin-left: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    min-width: 0;
+  }
+
 }
