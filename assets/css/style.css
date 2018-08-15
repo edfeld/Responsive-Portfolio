@@ -223,15 +223,22 @@ footer {
   min-width: 1150px; 
 }
 
-@media (max-width: 400px) {
+
+/* 
+=========================================
+Media query sm, xs 
+=========================================
+*/
+/* @media (max-width: 400px) {
 
   body {
     width: 100%;
   }
   .top-container {
-    padding-left: 15px;
+    padding-left: 0px;
     Height: 120px;
     min-width: 0;
+    width: 400px;
   }
 
   .navigation {
@@ -252,11 +259,50 @@ footer {
   footer {
     min-width: 0;
   }
+} */
+
+@media (min-width: 1px) and (max-width: 640px) {
+
+  
+  .top-container {
+    padding-left: 0px;
+    Height: 120px;
+    min-width: 0;
+    width: 100%;
+    position: static;
+  }
+
+  .logo {
+    width:100%;
+    text-align: center;
+  }
+  .navigation {
+    padding: 15px 0px 15px 0px;
+    width: 100%;
+    text-align: center;
+  }
+  .nav {
+    padding: 0px 0px 0px 0px;
+    float: none;
+    margin: 25px auto 25px auto;
+    
+  }
+  .main-content {
+    width: 95%;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  footer {
+    min-width: 0;
+  }
 }
 
-@media (min-width: 401px) and (max-width: 768px) {
+@media (min-width: 641px) and (max-width: 768px) {
   .top-container {
-    padding-left: 15px;
+    padding-left: 0px;
     Height: 120px;
     min-width: 0;
   }
