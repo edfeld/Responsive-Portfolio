@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 01 Contacts</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <script>
+            function myFunction() {
+                alert("You have submitted a Message!");
+            }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <aside class="top-container" >
+            <div class="logo">Edward Einfeld</div>
+            <nav class="navigation">
+                    <a href="index.html">About</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="">Contact</a>
+            </nav>
+            <div class="top-container-tail"></div>
+        </aside>
+        <hr class="clear-float">
+        <section class=main-content>
+            <h1>Contact</h1>
+            <hr>
+            <form action="#">
+                <label class="contact-element" >Name</label>
+                <input class="contact-element" type="text" name="fullName" placeholder="John Smith" maxlength="50">
+                <label class="contact-element" >Email</label>
+                <input class="contact-element" type="text" name="emailAddress" placeholder="example@gmail.com" maxlength="50">
+                <label class="contact-element" >Message</label>
+                <textarea class="contact-element" rows="4" cols="300" placeholder="Enter your message" ></textarea>
+                
+                <input class="submit-button" type="submit" value="Submit" onclick="myFunction()">
+            </form>
+        </section>
+        <div class="push"></div> 
+    </div>
+    <footer class="footer">Copyright &copy</footer>
+</body>
+</html>
