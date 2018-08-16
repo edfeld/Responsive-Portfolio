@@ -1,14 +1,13 @@
-/* Responsive Portfolio Style sheet */
 /*
   ========================================
-  
+  Responsive Portfolio Style sheet
   ========================================
 */
 html {
   height: 100%;
 }
 
-body{
+body {
   margin: 0;
   height: 100%;
   background-image: url("../images/backgroundPattern01.png");
@@ -19,8 +18,8 @@ body{
 *:before,
 *:after {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -28,16 +27,13 @@ h1 {
   -webkit-margin-before: 0.83em;
   -webkit-margin-after: 0.83em;
   font-weight: bold;
-}
-
-h1 {
   color: #4aaaa5;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
 }
 
 p {
   color: #777777;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
@@ -52,9 +48,7 @@ p {
   padding-right: 0px;
   align-content: center;
   background-color: #fff;
-  min-width: 1150px; 
   border-bottom: 1px solid #cccccc;
-  
 }
 
 .logo {
@@ -62,7 +56,7 @@ p {
   padding: 21.5px 20px;
   color: #fff;
   background-color: #4aaaa5;
-  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-family: "Georgia", Times, Times New Roman, serif;
   font-size: 1.5em;
   float: left;
 }
@@ -70,19 +64,19 @@ p {
 .navigation {
   padding: 25px 0px 25px 535px;
   text-align: left;
-  float: left;   
+  float: left;
 }
 
 nav a {
   padding-right: 10px;
   padding-left: 10px;
-  border-right: #cccccc  1px solid;
+  border-right: #cccccc 1px solid;
   text-decoration: none;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
   color: gray;
 }
 
-nav a:last-child{
+nav a:last-child {
   border-right: none;
 }
 
@@ -95,7 +89,7 @@ nav a:hover {
   background-color: #ffffff;
 }
 
-.clear-float{
+.clear-float {
   clear: left;
   visibility: hidden;
 }
@@ -103,7 +97,6 @@ nav a:hover {
 hr {
   margin: 0;
   color: #cccccc;
- 
 }
 
 .wrapper {
@@ -118,14 +111,14 @@ hr {
 .photo {
   float: left;
   margin: 0 25px 0px 0;
-  height:150px;
-} 
+  height: 150px;
+}
 
 .bio-text {
   float: left;
 }
 
-.bio-clearfloat{
+.bio-clearfloat {
   clear: left;
 }
 
@@ -133,22 +126,18 @@ hr {
   padding: 0 20px 0 20px;
   background-color: #ffffff;
   width: 960px;
-  margin: 30px 0 50px 180px;
   margin: 15px 0 15px 180px;
-  border: 1px solid #dddddd; 
-  /* min-height: 900px; */
+  border: 1px solid #dddddd;
   clear: left;
 }
 
 .portfolio-grid {
   height: auto;
-  
 }
 
 .portfolio-image {
   height: 170px;
   width: 240px;
-  
 }
 
 /* grid styling */
@@ -156,7 +145,7 @@ hr {
 .table-cell-position {
   position: relative;
   overflow: hidden;
-  padding: 4px 0 4px 8px;
+  padding: 15px 0 4px 8px;
   width: 240px;
   float: left;
 }
@@ -177,28 +166,28 @@ hr {
   content: "";
   display: block;
   clear: both;
-  }
-  
+}
+
 /* style  for the Contacts page */
-.contact-element{
+.contact-element {
   display: block;
   margin-top: 8px;
   margin-bottom: 8px;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color: #777777;  
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #777777;
 }
 
 textarea {
-  margin: 8px 0 8px 0; 
-  width: 920px; 
+  margin: 8px 0 8px 0;
+  width: 920px;
   height: 58px;
   resize: none;
 }
 
 .submit-button {
   display: block;
-  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-  color:#ffffff;
+  font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+  color: #ffffff;
   background: #4aaaa5;
   margin: 10px 10px 10px 0;
   padding: 8px 20px 8px 20px;
@@ -212,15 +201,13 @@ textarea {
 
 footer {
   text-align: center;
-  padding-top:25px;
+  padding-top: 25px;
   font-size: 0.65em;
   width: 100%;
   border-top: 4px solid #4aaaa5;
   color: #ffffff;
   background-color: #666666;
-  min-width: 1150px; 
 }
-
 
 /* 
 =========================================
@@ -228,16 +215,14 @@ Media query sm, xs
 =========================================
 */
 @media (min-width: 1px) and (max-width: 640px) {
-
   .top-container {
     padding-left: 0px;
     height: 120px;
     min-width: 0;
     width: 100%;
-    /* position: static; */
   }
   .logo {
-    width:100%;
+    width: 100%;
     text-align: center;
   }
   .navigation {
@@ -249,7 +234,6 @@ Media query sm, xs
     padding: 0px 0px 0px 0px;
     float: none;
     margin: 25px auto 25px auto;
-    
   }
   .main-content {
     width: 95%;
@@ -267,15 +251,15 @@ Media query sm, xs
     margin-right: auto;
   }
   /* portfolio grid */
-.portfolio-grid {
-  width: 240px;
-  margin-left: auto;
-  margin-right: auto;
-}
+  .portfolio-grid {
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .table-cell-position {
     width: 240px;
-    padding: 8px 0 4px 0px;
+    padding: 15px 0 4px 0px;
   }
 
   /* contact page */
@@ -284,9 +268,6 @@ Media query sm, xs
     width: 100%;
   }
 
-  footer {
-    min-width: 0;
-  }
 }
 
 /* 
@@ -297,7 +278,6 @@ Media query md
 @media (min-width: 641px) and (max-width: 768px) {
   .top-container {
     padding-left: 15px;
-    /* Height: 120px; */
     min-width: 0;
   }
 
@@ -305,33 +285,25 @@ Media query md
     padding: 25px 0px 25px 0px;
     float: right;
   }
+
   .nav {
     padding: 0px 0px 0px 0px;
     float: right;
   }
+
   .main-content {
     width: 510px;
-    margin-left: 15px;
     padding-right: 10px;
     padding-left: 10px;
     margin-left: 15px;
     margin-right: auto;
-
   }
-
-  .table-cell-position {
-    padding-top: 8px;
-  }  
 
   /* contact page */
   .input-element,
   .input-message {
     width: 100%;
     margin-right: 25px;
-  }
-
-  footer {
-    min-width: 0;
   }
 
 }
@@ -343,8 +315,7 @@ Media query lg
 */
 @media (min-width: 768px) and (max-width: 980px) {
   .top-container {
-    padding-left: 40px; /* 25px */
-    /* Height: 120px; */
+    padding-left: 40px;
     min-width: 0;
   }
 
@@ -366,19 +337,11 @@ Media query lg
     margin-right: auto;
   }
 
-  .table-cell-position {
-    padding-top: 8px;
-  } 
-
   /* contact page */
   .input-element,
   .input-message {
     width: 100%;
     margin-right: 25px;
-  }
-
-  footer {
-    min-width: 0;
   }
 
 }
@@ -407,7 +370,6 @@ Media query xl
 
   .main-content {
     width: 92%;
-    margin-left: 15px;
     padding-right: 10px;
     padding-left: 10px;
     margin-left: auto;
@@ -415,14 +377,10 @@ Media query xl
     max-width: 960px;
   }
 
-    /* contact page */
-    .input-element,
-    .input-message {
-      width: 500px;
-    }
-
-  footer {
-    min-width: 0;
+  /* contact page */
+  .input-element,
+  .input-message {
+    width: 500px;
   }
 
 }
