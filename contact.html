@@ -15,26 +15,28 @@
 </head>
 <body>
     <div class="wrapper">
-        <aside class="top-container" >
-            <div class="logo">Edward Einfeld</div>
-            <nav class="navigation">
-                    <a href="index.html">About</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="">Contact</a>
-            </nav>
-            <div class="top-container-tail"></div>
-        </aside>
+        <header class="top-container" >
+            <div class="inner-top">
+                <div class="logo">Edward Einfeld</div>
+                <nav class="navigation">
+                        <a href="index.html">About</a>
+                        <a href="portfolio.html">Portfolio</a>
+                        <a href="">Contact</a>
+                </nav>
+                <div class="top-container-tail"></div>
+            </div>
+        </header>
         <hr class="clear-float">
         <section class=main-content>
             <h1>Contact</h1>
             <hr>
             <form action="#">
                 <label class="contact-element" >Name</label>
-                <input class="contact-element" type="text" name="fullName" placeholder="John Smith" maxlength="50">
+                <input class="input-element" type="text" name="fullName" placeholder="John Smith" maxlength="50">
                 <label class="contact-element" >Email</label>
-                <input class="contact-element" type="text" name="emailAddress" placeholder="example@gmail.com" maxlength="50">
+                <input class="input-element" type="text" name="emailAddress" placeholder="example@gmail.com" maxlength="50">
                 <label class="contact-element" >Message</label>
-                <textarea class="contact-element" rows="4" cols="300" placeholder="Enter your message" ></textarea>
+                <textarea class="input-message" rows="4" cols="300" placeholder="Enter your message" ></textarea>
                 
                 <input class="submit-button" type="submit" value="Submit" onclick="myFunction()">
             </form>
