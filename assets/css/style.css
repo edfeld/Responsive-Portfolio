@@ -313,7 +313,7 @@ Media query md
 Media query lg
 =========================================
 */
-@media (min-width: 768px) and (max-width: 980px) {
+@media (min-width: 769px) and (max-width: 980px) {
   .top-container {
     padding-left: 40px;
     min-width: 0;
