@@ -1,3 +1,3 @@
 # Responsive-Portfolio
 Responsive Homework
-We will developing a responsive web site using our Basic Portfolio. 
+Here I developed a responsive web site using my Basic Portfolio as the template. 
